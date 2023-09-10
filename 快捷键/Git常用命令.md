@@ -19,14 +19,14 @@
 | git push 别名 分支                   | 推送本地分支上的内容到远程仓库                           |
 | git clone 远程地址                   | 将远程仓库的内容克隆岛本地                               |
 | git pull 远程库地址别名 远程分支名   | 将远程仓库对于分支最新内容拉下来后与当前本地分支直接合并 |
-
-
-
-
-
-
-
-
+| git config --global http.proxy socks5 127.0.0.1:7890   | 设置代理 |
+| git config --global https.proxy socks5 127.0.0.1:7890   | 设置代理 |
+| git config --global http.proxy 127.0.0.1:7890   | 设置代理 |
+| git config --global https.proxy 127.0.0.1:7890   | 设置代理 |
+| git config --global --get http.proxy  | 查看代理 |
+| git config --global --get https.proxy  | 查看代理 |
+| git config --global --unset http.proxy  | 取消代理 |
+| git config --global --unset https.proxy  | 取消代理 |
 
 
 
